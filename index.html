@@ -1,0 +1,41 @@
+<!doctype html><html lang="en">
+
+<!--
+ Copyright (c) 2025 Appazur Solutions Inc. All rights reserved.
+-->
+
+<head>
+    <style>
+.canada, .not-canada {
+    display: none;
+}
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome!</h1>
+
+    This static HTML web page contains country-specific content.
+
+    <div class="canada">
+        🇨🇦 Buy Canadian! We offer pricing in $CAD. Appazur.com is developed, supported, and hosted in Canada.
+    </div>
+
+    <div class="not-canada">
+        Thank you for visiting this site from outside of Canada.
+    </div>
+
+    <!-- Enter your own Cloudflare Worker URL here: -->
+    <script src="https://geoip.my-account.workers.dev/"></script>
+    <script>
+        let country_code = window.cf_ipcountry;
+        console.log('Country:', country_code);
+        let els = document.querySelectorAll(country_code == 'CA' ? ".canada" : ".not-canada");
+        let i;
+        for (i = 0; i < els.length; i++) {
+            els[i].style.display = 'block';
+        }
+    </script>
+</body>
+</html>
