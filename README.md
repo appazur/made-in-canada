@@ -1,6 +1,6 @@
 # Country-Specific Static Website Content
 
-Want to show small amounts of country-specific content on your website, such as prices in local currency, content related to local regulations, shipping and delivery times, or local promotional text e.g. &ldquo;🇨🇦 Made in Canada&rdquo; for example? You don't have to do it the hard way!
+Do you need to show small amounts of country-specific content on your website, such as prices in local currency, content related to local regulations, shipping and delivery times, or local promotional text e.g. &ldquo;🇨🇦 Made in Canada&rdquo; for example? You don't have to do it the hard way!
 
 In these examples, perhaps the country-specific content is not important for SEO purposes.
 Therefore you don't need to publish pages for each country.
@@ -178,4 +178,4 @@ And the source code referenced above is freely available here:
 
 - https://github.com/appazur/made-in-canada
 
-We've presented several ways to obtain and use the country code to provide country-specific content for a static website visitor. Which approach do you prefer and why?
+We've presented several ways to obtain and use the country code to provide country-specific content for a static website visitor. Which approach do you prefer and why? Is there another method that you have used?
